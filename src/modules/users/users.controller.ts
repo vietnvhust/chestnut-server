@@ -8,4 +8,7 @@ export default class UsersController {
             message: "Router Users Work !!!"
         })
     }
+    public createUser = (req: Request, res: Response, next: NextFunction) => {
+
+    }
 }

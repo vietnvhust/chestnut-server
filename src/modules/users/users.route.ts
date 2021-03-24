@@ -11,5 +11,6 @@ export default class UsersRoute implements Route {
     }
     private routes() {
         this.router.get(this.path, this.usersController.index);
+        this.router.post(this.path, this.usersController.createUser);
     }
 }
